@@ -7,8 +7,8 @@ app.use(express.json());
 const VERIFY_TOKEN = "meubot123";
 
 // 🔐 DADOS DA META (coloque os seus)
-const TOKEN = "SEU_ACCESS_TOKEN_AQUI";
-const PHONE_NUMBER_ID = "SEU_PHONE_NUMBER_ID";
+const TOKEN = "EAAaZAOOiAv4sBQsVwtJBCnmBlD0crLpb4wsybPLPlb7D8DB5omx4Ey7bfVHUdr2WtZC0yqrRWT4VsP3fZBConDAOwDkTKWRL2xQ5ZBgGeWnmuvvRScVrsGVDFD2sZBJXlKBNz6h0f1n1g7fLWe60ct8Kg8VJpnt6G1aHZAaZBgRkkiZC2latf2cwLx2lvNaBy0uvrYrZBki0R5cxVZCx6j7JoNqcU9vwM4bPUfP1LpptuBvD31sgm7JY9PCy9xJZAP650PXYtnTerXo530CXQpO1d0j2pLnbgZDZD";
+const PHONE_NUMBER_ID = "15551753902";
 
 app.get("/webhook", (req, res) => {
   const mode = req.query["hub.mode"];
