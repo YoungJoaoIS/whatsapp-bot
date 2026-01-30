@@ -8,7 +8,7 @@ const VERIFY_TOKEN = "meubot123";
 
 // 🔐 DADOS DA META (coloque os seus)
 const TOKEN = "EAAaZAOOiAv4sBQjocvsZC3Ks17TLv77dwHYtmSaEkt4ZAsMdkHApSDM1BYsYkQ0cJHxEEeIewkhS0zZApRZAuLhujMkItBltcLZBkJsYvgB6VJ9h3ta5GfaE8CrT8ZBbjt7CvnBSVVmWkAZBMXW5AzZBVHU9LG5RYUScGq4zkY7peOwGjUAUWt4a79qZBqZCyAeYx4fdcHM9lNF6Stcy6D3S3ZAkY89SeGpNRFnQbEM8mS017NTE76FJ2K40idwWWp5O0ZCdGObxlY6Q7kRVZAyBlMUm2B8Edz";
-const PHONE_NUMBER_ID = "867840126041216";
+const PHONE_NUMBER_ID = "893349430539002";
 
 app.get("/webhook", (req, res) => {
   const mode = req.query["hub.mode"];
