@@ -7,7 +7,7 @@ app.use(express.json());
 const VERIFY_TOKEN = "meubot123";
 
 // 🔐 DADOS DA META (coloque os seus)
-const TOKEN = "EAAaZAOOiAv4sBQh81k9dBacEbAMlOZAHCSkz7NTViBDMZB8sPwjxB6E1UA8CRLn3bBlYDrM70Cfe0a1yaQou4ifz1R3NviewZARw6WMKvOiCBqbMZBbIVjvl7XdDzZCUZCkWxZBmFCrhSVkuq1yxcdtOPJB68cV8jrFlCFcMC55FZAKB9Vtkjk7QLAX2nicPpxH4ZC76oI3jtYCsuSG8ADbKWCAGfvEUkXZBF7pfCnZBqXZCCUUByjqs206ZAji4mZCvJvycBNtXZA6AZBrrvhmx9PZAzWN5ufhqM3pAZDZD";
+const TOKEN = "EAAaZAOOiAv4sBQgFUGIOkNZCHVhz5ZCnVFMGbxEFPyCT2Ye2JZBwIJbp92GBAAXxFPXvjaj2DTvR3ZBpGDhy1gZAhnfl60DHjE7958Iu66EghCsZBKlaWI0GNGHRNkybJw90UZAHlgOoHeujXMVZA0ZB9GaVlYLyadTfwTi8ZAujogb8cXOnfUJLOlUZAElDBYpcThnnVpvZANUaEkbZC88JQ02hUxGdRavgjVJFu9sZCMt7MhZCRbHxb908wPHfCwUJsM2nccWtGglep76n5FX6QEBas4nw5CgLwwZDZD";
 const PHONE_NUMBER_ID = "893349430539002";
 
 app.get("/webhook", (req, res) => {
@@ -34,7 +34,7 @@ app.post("/webhook", async (req, res) => {
 
     if (text) {
       await axios.post(
-        `https://graph.facebook.com/v18.0/${PHONE_NUMBER_ID}/messages`,
+        `https://graph.facebook.com/v18.0/${893349430539002}/messages`,
         {
           messaging_product: "whatsapp",
           to: from,
